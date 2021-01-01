@@ -34,12 +34,12 @@ jobs:
           default: true
           override: true
       - name: build
-        run: cargo build
+        run: cargo build --release
       - name: release
         uses: softprops/action-gh-release@v1
         # only do this step when there's a git tag
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: target/debug/demo.dll
+          files: target/release/demo.dll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
