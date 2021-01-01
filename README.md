@@ -19,3 +19,5 @@ Here are the github actions that we rely on for this configuration:
 
 - [rust-toolchain action](https://github.com/actions-rs/toolchain)
 - [softprops gh-action-release](https://github.com/softprops/action-gh-release)
+
+Thanks also to [Alican](https://alican.codes/rust-github-actions/) for the write-up giving an example of multi-platform configuration!
