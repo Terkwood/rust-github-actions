@@ -1,4 +1,9 @@
-# how to use github actions to release a rust DLL for windows
+# demonstrate using github actions to release a dynamic lib
+
+This is useful for building a dynamically-linked lib used by
+Godot Engine, e.g. in [delta-pack](https://github.com/Terkwood/delta-pack).
+
+Shows configuration for win, mac, linux x86_64.
 
 Take a look at [the github actions config](./.github/workflows/rust.yml).
 
