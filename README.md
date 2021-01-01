@@ -11,7 +11,7 @@ After you make some changes that you want published, you need to push
 tags to your repo:
 
 ```sh
-git tag -a v0.0.0-a -m "whatever"
+git tag -a v0.1.0 -m "my release"
 git push --tags
 ```
 
